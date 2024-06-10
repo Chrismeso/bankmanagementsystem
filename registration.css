@@ -1,0 +1,22 @@
+form{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    background-color: steelblue;
+}
+input[type=text]:focus,input[type=email]:focus{
+    background-color: #ff6f00;
+}
+.first{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+input[type=text],input[type=email],input[type=date],textarea{
+    width: 60%;
+    height: 60px;
+}
+label{
+    width: 25%;
+    margin-right: 5px;
+}
